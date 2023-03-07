@@ -6,7 +6,7 @@ public class gerente extends funcionario {
         super(nome, salario, codigo);
         this.area = area;
         bonifica = bonus;
-        //calculaDesconto();
+        calculaDesconto();
     }
     
 

@@ -4,7 +4,7 @@ public  final class presidente extends funcionario {
     public presidente(String nome, double salario, int codigo, int cota) {
         super(nome, salario, codigo);
         this.cota = cota;
-        //calculaDesconto();
+        calculaDesconto();
     }
 
     
